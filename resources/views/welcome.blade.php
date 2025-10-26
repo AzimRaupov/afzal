@@ -2766,96 +2766,6 @@
 <!-- ================================ Instructor Section End ==================================== -->
 
 
-<!-- =========================== CHoose Us Section Start ================================ -->
-<section class="choose-us pt-120 position-relative z-1 mash-bg-main mash-bg-main-two">
-    <img src="assets/images/shapes/shape2.png" alt="" class="shape one animation-scalation">
-    <img src="assets/images/shapes/shape2.png" alt="" class="shape six animation-scalation">
-
-    <div class="container">
-        <div class="row gy-4">
-            <div class="col-xl-6">
-                <div class="choose-us__content">
-                    <div class="mb-40">
-                        <div class="flex-align gap-8 mb-16 wow bounceInDown">
-                            <span class="w-8 h-8 bg-main-600 rounded-circle"></span>
-                            <h5 class="text-main-600 mb-0">Why Choose Us</h5>
-                        </div>
-                        <h2 class="mb-24  wow bounceIn">Our Commitment to Excellence, Learn, Grow & Success.</h2>
-                        <p class="text-neutral-500 text-line-2  wow bounceInUp">We are passionate about transforming lives through education. Founded with a vision to make learning accessible to all, we believe in the power of knowledge to unlock opportunities and shape the future.</p>
-                    </div>
-
-                    <ul>
-                        <li class="flex-align gap-12 mb-16" data-aos="fade-up-left"  data-aos-duration="200">
-                            <span class="flex-shrink-0 text-xl text-main-600 d-flex"><i class="ph-bold ph-checks"></i></span>
-                            <span class="flex-grow-1 text-neutral-500">9/10 Average Satisfaction Rate</span>
-                        </li>
-                        <li class="flex-align gap-12 mb-16" data-aos="fade-up-left"  data-aos-duration="400">
-                            <span class="flex-shrink-0 text-xl text-main-600 d-flex"><i class="ph-bold ph-checks"></i></span>
-                            <span class="flex-grow-1 text-neutral-500">96% Completitation Rate</span>
-                        </li>
-                        <li class="flex-align gap-12 mb-16" data-aos="fade-up-left"  data-aos-duration="500">
-                            <span class="flex-shrink-0 text-xl text-main-600 d-flex"><i class="ph-bold ph-checks"></i></span>
-                            <span class="flex-grow-1 text-neutral-500">Friendly Environment & Expert Teacher</span>
-                        </li>
-                    </ul>
-
-                    <div class="pt-24 border-top border-neutral-50 mt-28 border-dashed border-0">
-                        <a href="about.html" class="btn btn-main rounded-pill flex-align d-inline-flex gap-8">
-                            Read More
-                            <i class="ph-bold ph-arrow-up-right d-flex text-lg"></i>
-                        </a>
-                    </div>
-
-                </div>
-            </div>
-            <div class="col-xl-6">
-                <div class="choose-us__thumbs position-relative">
-
-                    <div class="offer-message style-two px-24 py-12 rounded-12 bg-white fw-medium flex-align d-inline-flex gap-16 box-shadow-lg animation-upDown">
-                    <span class="flex-shrink-0 w-48 h-48 bg-dark-yellow text-white text-2xl flex-center rounded-circle">
-                        <img src="assets/images/icons/stars.png" alt="">
-                    </span>
-                        <div>
-                        <span class="text-lg text-neutral-700 d-block">
-                            4.6
-                            <span class="text-neutral-100">(2.4k)</span>
-                        </span>
-                            <span class="text-neutral-500">AVG Reviews</span>
-                        </div>
-                    </div>
-
-                    <div class="banner-box one style-two px-24 py-12 rounded-12 bg-white fw-medium box-shadow-lg d-inline-block" data-aos="fade-left">
-                        <span class="text-main-600">36k+</span> Enrolled Students
-                        <div class="enrolled-students mt-12">
-                            <img src="assets/images/thumbs/enroll-student-img1.png" alt="" class="w-48 h-48 rounded-circle object-fit-cover">
-                            <img src="assets/images/thumbs/enroll-student-img2.png" alt="" class="w-48 h-48 rounded-circle object-fit-cover">
-                            <img src="assets/images/thumbs/enroll-student-img3.png" alt="" class="w-48 h-48 rounded-circle object-fit-cover">
-                            <img src="assets/images/thumbs/enroll-student-img4.png" alt="" class="w-48 h-48 rounded-circle object-fit-cover">
-                            <img src="assets/images/thumbs/enroll-student-img5.png" alt="" class="w-48 h-48 rounded-circle object-fit-cover">
-                            <img src="assets/images/thumbs/enroll-student-img6.png" alt="" class="w-48 h-48 rounded-circle object-fit-cover">
-                        </div>
-                    </div>
-
-                    <div class="text-end" data-aos="zoom-out">
-                        <div class="d-sm-inline-block d-block position-relative">
-                            <img src="assets/images/thumbs/choose-us-img1.png" alt="" class="choose-us__img rounded-12" data-tilt data-tilt-max="16" data-tilt-speed="500" data-tilt-perspective="5000" data-tilt-full-page-listening>
-                            <span class="shadow-main-two w-80 h-80 flex-center bg-main-two-600 rounded-circle position-absolute inset-block-start-0 inset-inline-start-0 mt-40 ms--40 animation-upDown">
-                            <img src="assets/images/icons/book.png" alt="">
-                        </span>
-                        </div>
-                    </div>
-                    <div class="animation-video"  data-aos="zoom-in">
-                        <img src="assets/images/thumbs/choose-us-img2.png" alt="" class="border border-white rounded-circle border-3" data-tilt>
-                        <a href="https://www.youtube.com/watch?v=MFLVmAE4cqg" class="play-button w-48 h-48 flex-center bg-main-600 text-white rounded-circle text-xl position-absolute top-50 start-50 translate-middle">
-                            <i class="ph-fill ph-play"></i>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<!-- =========================== CHoose Us Section End ================================ -->
 
 <!-- ========================== Counter Section start ============================== -->
 <section class="counter py-120">
@@ -2903,34 +2813,38 @@
 <!-- ========================== Counter Section End ============================== -->
 
 <!-- ================================= testimonials Section Start ========================================= -->
-<section class="testimonials py-120 position-relative z-1 bg-main-25">
+<section class="testimonials py-120 position-relative z-1 mash-bg-main">
     <img src="assets/images/shapes/shape2.png" alt="" class="shape six animation-scalation">
     <img src="assets/images/shapes/shape3.png" alt="" class="shape four animation-rotation">
 
     <div class="container">
         <div class="row gy-5">
+            <!-- Левая колонка с фото -->
             <div class="col-lg-6">
                 <div class="testimonials__thumbs-slider pe-lg-5 me-xxl-5">
                     <div class="testimonials__thumbs wow bounceIn" data-tilt data-tilt-max="15" data-tilt-speed="500" data-tilt-perspective="5000" data-tilt-full-page-listening>
-                        <img src="assets/images/thumbs/testimonial-img1.png" alt="">
+                        <img src="assets/images/thumbs/testimonial-img1.png" alt="Победитель олимпиады">
                     </div>
                     <div class="testimonials__thumbs wow bounceIn" data-tilt data-tilt-max="15" data-tilt-speed="500" data-tilt-perspective="5000" data-tilt-full-page-listening>
-                        <img src="assets/images/thumbs/testimonial-img2.png" alt="">
+                        <img src="assets/images/thumbs/testimonial-img2.png" alt="Призёр конкурса">
                     </div>
                 </div>
             </div>
+
+            <!-- Правая колонка с отзывами -->
             <div class="col-lg-6">
                 <div class="testimonials__content">
                     <div class="section-heading style-left">
                         <div class="flex-align gap-8 mb-16 wow bounceInDown">
                             <span class="w-8 h-8 bg-main-600 rounded-circle"></span>
-                            <h5 class="text-main-600 mb-0">What Our Students Say</h5>
+                            <h5 class="text-main-600 mb-0">Наша гордость</h5>
                         </div>
-                        <h2 class="mb-24 wow bounceIn">Testimonials from Happy Learners for EduAll</h2>
-                        <p class="text-neutral-500 text-line-2 wow bounceInUp">16+ million Students are already learning on EduAll Platform</p>
+                        <h2 class="mb-24 wow bounceIn">Победители и призёры олимпиад</h2>
+                        <p class="text-neutral-500 text-line-2 wow bounceInUp">Наши ученики добиваются блестящих результатов, показывая высокий уровень знаний и вдохновения к науке.</p>
                     </div>
 
                     <div class="testimonials__slider">
+                        <!-- Ученик 1 -->
                         <div class="testimonials-item">
                             <ul class="flex-align gap-8 mb-16" data-aos="fade-left" data-aos-duration="800">
                                 <li class="text-warning-600 text-xl d-flex"><i class="ph-fill ph-star"></i></li>
@@ -2939,23 +2853,35 @@
                                 <li class="text-warning-600 text-xl d-flex"><i class="ph-fill ph-star"></i></li>
                                 <li class="text-warning-600 text-xl d-flex"><i class="ph-fill ph-star-half"></i></li>
                             </ul>
-                            <p class="text-neutral-700" data-aos="fade-left" data-aos-duration="1200">"Enrolling in courses at EduAll was one of the best decisions I've made for my career. The flexibility of the online learning platform allowed me to study at my own pace while balancing my work”</p>
-                            <h4 class="mt-48 mb-8" data-aos="fade-left">Kathryn Murphy</h4>
-                            <span class="text-neutral-700" data-aos="fade-left">Software Developer</span>
+                            <p class="text-neutral-700" data-aos="fade-left" data-aos-duration="1200">
+                                «Участие в республиканской олимпиаде по физике стало для меня важным шагом.
+                                Благодаря поддержке учителей и упорным тренировкам я занял <strong>1 место</strong>
+                                и понял, что знания действительно открывают новые горизонты!»
+                            </p>
+                            <h4 class="mt-48 mb-8" data-aos="fade-left">Ахмаджон Саидов</h4>
+                            <span class="text-neutral-700" data-aos="fade-left">Победитель олимпиады по физике</span>
                         </div>
+
+                        <!-- Ученик 2 -->
                         <div class="testimonials-item">
                             <ul class="flex-align gap-8 mb-16" data-aos="fade-left" data-aos-duration="800">
                                 <li class="text-warning-600 text-xl d-flex"><i class="ph-fill ph-star"></i></li>
                                 <li class="text-warning-600 text-xl d-flex"><i class="ph-fill ph-star"></i></li>
                                 <li class="text-warning-600 text-xl d-flex"><i class="ph-fill ph-star"></i></li>
                                 <li class="text-warning-600 text-xl d-flex"><i class="ph-fill ph-star"></i></li>
-                                <li class="text-warning-600 text-xl d-flex"><i class="ph-fill ph-star-half"></i></li>
+                                <li class="text-warning-600 text-xl d-flex"><i class="ph-fill ph-star"></i></li>
                             </ul>
-                            <p class="text-neutral-700" data-aos="fade-left" data-aos-duration="1200">"Signing up for courses at EduAll was quite possibly of the best choice I've made for my vocation. The adaptability of the internet learning stage permitted me to learn at my own speed while adjusting my work"</p>
-                            <h4 class="mt-48 mb-8" data-aos="fade-left">John Doe</h4>
-                            <span class="text-neutral-700" data-aos="fade-left">UX/UI Designer</span>
+                            <p class="text-neutral-700" data-aos="fade-left" data-aos-duration="1200">
+                                «Олимпиада по информатике подарила мне не только призовое <strong>2 место</strong>,
+                                но и уверенность в собственных силах.
+                                Я научился решать сложные задачи, работать в команде и видеть в коде красоту логики!»
+                            </p>
+                            <h4 class="mt-48 mb-8" data-aos="fade-left">Ситора Каримова</h4>
+                            <span class="text-neutral-700" data-aos="fade-left">Призёр олимпиады по информатике</span>
                         </div>
                     </div>
+
+                    <!-- Кнопки навигации -->
                     <div class="flex-align gap-16 mt-40">
                         <button type="button" id="testimonials-prev" class="slick-prev slick-arrow flex-center rounded-circle border border-gray-100 hover-border-main-600 text-xl hover-bg-main-600 hover-text-white transition-1 w-48 h-48">
                             <i class="ph ph-caret-left"></i>
@@ -2971,141 +2897,6 @@
 </section>
 <!-- ================================= testimonials Section End ========================================= -->
 
-<!-- ================================= Blog Section Start ========================================= -->
-<section class="blog py-120 mash-bg-main mash-bg-main-two position-relative">
-    <img src="assets/images/shapes/shape2.png" alt="" class="shape two animation-scalation">
-    <img src="assets/images/shapes/shape6.png" alt="" class="shape four animation-scalation">
-
-    <div class="container">
-        <div class="section-heading text-center">
-            <h2 class="mb-24 wow bounceIn">Recent Articles</h2>
-            <p class="wow bounceInUp">Consectetur adipisicing elit, sed do eiusmod tempor inc idid unt ut labore et dolore magna aliqua enim ad...</p>
-        </div>
-        <div class="row gy-4">
-            <div class="col-lg-4 col-sm-6" data-aos="fade-up" data-aos-duration="200" >
-                <div class="blog-item scale-hover-item bg-main-25 rounded-16 p-12 h-100 border border-neutral-30">
-                    <div class="rounded-12 overflow-hidden position-relative">
-                        <a href="blog-details.html" class="w-100 h-100">
-                            <img src="assets/images/thumbs/blog-img1.png" alt="Blog Image" class="scale-hover-item__img rounded-12 cover-img transition-2">
-                        </a>
-                    </div>
-                    <div class="p-24 pt-32">
-                        <div class="">
-                            <span class="px-20 py-8 bg-main-two-600 rounded-8 text-white fw-medium mb-20">Student life</span>
-                            <h4 class="mb-28">
-                                <a href="blog-details.html" class="link text-line-2">The Importance of Diversity in Higher Education</a>
-                            </h4>
-                            <div class="flex-align gap-14 flex-wrap my-20">
-                                <div class="flex-align gap-8">
-                                    <span class="text-neutral-500 text-2xl d-flex"><i class="ph ph-user-circle"></i></span>
-                                    <span class="text-neutral-500 text-lg">Jeswal</span>
-                                </div>
-                                <span class="w-8 h-8 bg-neutral-100 rounded-circle"></span>
-                                <div class="flex-align gap-8">
-                                    <span class="text-neutral-500 text-2xl d-flex"><i class="ph ph-calendar-dot"></i></span>
-                                    <span class="text-neutral-500 text-lg">12 May, 24</span>
-                                </div>
-                                <span class="w-8 h-8 bg-neutral-100 rounded-circle"></span>
-                                <div class="flex-align gap-8">
-                                    <span class="text-neutral-500 text-2xl d-flex"><i class="ph ph-chat-dots"></i></span>
-                                    <span class="text-neutral-500 text-lg">24</span>
-                                </div>
-                            </div>
-                            <p class="text-neutral-500 text-line-2">Unlock the secrets to effective time management in the digital learning space...</p>
-                        </div>
-                        <div class="pt-24 border-top border-neutral-50 mt-28 border-dashed border-0">
-                            <a href="blog-details.html" class="flex-align gap-8 text-main-600 hover-text-decoration-underline transition-1 fw-semibold" tabindex="0">
-                                Read More
-                                <i class="ph ph-arrow-right"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-sm-6" data-aos="fade-up" data-aos-duration="400" >
-                <div class="blog-item scale-hover-item bg-main-25 rounded-16 p-12 h-100 border border-neutral-30">
-                    <div class="rounded-12 overflow-hidden position-relative">
-                        <a href="blog-details.html" class="w-100 h-100">
-                            <img src="assets/images/thumbs/blog-img2.png" alt="Blog Image" class="scale-hover-item__img rounded-12 cover-img transition-2">
-                        </a>
-                    </div>
-                    <div class="p-24 pt-32">
-                        <div class="">
-                            <span class="px-20 py-8 bg-success-600 rounded-8 text-white fw-medium mb-20">Freedom</span>
-                            <h4 class="mb-28">
-                                <a href="blog-details.html" class="link text-line-2">The Importance of Diversity in Higher Education</a>
-                            </h4>
-                            <div class="flex-align gap-14 flex-wrap my-20">
-                                <div class="flex-align gap-8">
-                                    <span class="text-neutral-500 text-2xl d-flex"><i class="ph ph-user-circle"></i></span>
-                                    <span class="text-neutral-500 text-lg">Jeswal</span>
-                                </div>
-                                <span class="w-8 h-8 bg-neutral-100 rounded-circle"></span>
-                                <div class="flex-align gap-8">
-                                    <span class="text-neutral-500 text-2xl d-flex"><i class="ph ph-calendar-dot"></i></span>
-                                    <span class="text-neutral-500 text-lg">12 May, 24</span>
-                                </div>
-                                <span class="w-8 h-8 bg-neutral-100 rounded-circle"></span>
-                                <div class="flex-align gap-8">
-                                    <span class="text-neutral-500 text-2xl d-flex"><i class="ph ph-chat-dots"></i></span>
-                                    <span class="text-neutral-500 text-lg">24</span>
-                                </div>
-                            </div>
-                            <p class="text-neutral-500 text-line-2">Unlock the secrets to effective time management in the digital learning space...</p>
-                        </div>
-                        <div class="pt-24 border-top border-neutral-50 mt-28 border-dashed border-0">
-                            <a href="blog-details.html" class="flex-align gap-8 text-main-600 hover-text-decoration-underline transition-1 fw-semibold" tabindex="0">
-                                Read More
-                                <i class="ph ph-arrow-right"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-sm-6" data-aos="fade-up" data-aos-duration="600" >
-                <div class="blog-item scale-hover-item bg-main-25 rounded-16 p-12 h-100 border border-neutral-30">
-                    <div class="rounded-12 overflow-hidden position-relative">
-                        <a href="blog-details.html" class="w-100 h-100">
-                            <img src="assets/images/thumbs/blog-img3.png" alt="Blog Image" class="scale-hover-item__img rounded-12 cover-img transition-2">
-                        </a>
-                    </div>
-                    <div class="p-24 pt-32">
-                        <div class="">
-                            <span class="px-20 py-8 bg-main-two-600 rounded-8 text-white fw-medium mb-20">Online</span>
-                            <h4 class="mb-28">
-                                <a href="blog-details.html" class="link text-line-2">The Importance of Diversity in Higher Education</a>
-                            </h4>
-                            <div class="flex-align gap-14 flex-wrap my-20">
-                                <div class="flex-align gap-8">
-                                    <span class="text-neutral-500 text-2xl d-flex"><i class="ph ph-user-circle"></i></span>
-                                    <span class="text-neutral-500 text-lg">Jeswal</span>
-                                </div>
-                                <span class="w-8 h-8 bg-neutral-100 rounded-circle"></span>
-                                <div class="flex-align gap-8">
-                                    <span class="text-neutral-500 text-2xl d-flex"><i class="ph ph-calendar-dot"></i></span>
-                                    <span class="text-neutral-500 text-lg">12 May, 24</span>
-                                </div>
-                                <span class="w-8 h-8 bg-neutral-100 rounded-circle"></span>
-                                <div class="flex-align gap-8">
-                                    <span class="text-neutral-500 text-2xl d-flex"><i class="ph ph-chat-dots"></i></span>
-                                    <span class="text-neutral-500 text-lg">24</span>
-                                </div>
-                            </div>
-                            <p class="text-neutral-500 text-line-2">Unlock the secrets to effective time management in the digital learning space...</p>
-                        </div>
-                        <div class="pt-24 border-top border-neutral-50 mt-28 border-dashed border-0">
-                            <a href="blog-details.html" class="flex-align gap-8 text-main-600 hover-text-decoration-underline transition-1 fw-semibold" tabindex="0">
-                                Read More
-                                <i class="ph ph-arrow-right"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<!-- ================================= Blog Section End ========================================= -->
 
 <section class="join-community" id="application">
     <div class="container container--lg">
@@ -3182,434 +2973,110 @@
 
 <section class="faq-page py-120" id="faq">
     <div class="container">
-        <div class="section-heading text-center">
+        <div class="section-heading text-center mb-48">
             <div class="flex-align d-inline-flex gap-8 mb-16">
-                <span class="text-main-600 text-2xl d-flex"><i class="ph-bold ph-book"></i></span>
-                <h5 class="text-main-600 mb-0">FAQs</h5>
+                <span class="text-main-600 text-2xl d-flex"><i class="ph-bold ph-question"></i></span>
+                <h5 class="text-main-600 mb-0">Часто задаваемые вопросы</h5>
             </div>
-            <h2 class="mb-24">Найдите ответы на свои вопросы</h2>
-            <p class="">Добро пожаловать в раздел часто задаваемых вопросов! Здесь мы собрали ответы на самые распространённые вопросы наших пользователей.</p>
+            <h2 class="mb-16">Ответы для родителей и учеников</h2>
+            <p class="text-neutral-500">Мы собрали самые популярные вопросы, которые задают родители перед тем, как записать ребёнка в наш учебный центр. Надеемся, это поможет вам лучше понять, как мы работаем.</p>
         </div>
 
-        <div class="text-center mb-40">
-            <ul class="nav nav-pills common-tab d-inline-flex gap-16 bg-white p-12 border border-neutral-30 rounded-pill" id="pills-tab" role="tablist">
-                <li class="nav-item" role="presentation">
-                    <button class="nav-link rounded-pill bg-main-25 text-md fw-medium text-neutral-500 flex-center w-100 gap-8 active" id="pills-onlineEdu-tab" data-bs-toggle="pill" data-bs-target="#pills-onlineEdu" type="button" role="tab" aria-controls="pills-onlineEdu" aria-selected="true">
-                        <i class="text-xl text-main-600 d-flex ph-bold ph-user"></i>
-                        Online Education
-                    </button>
-                </li>
-                <li class="nav-item" role="presentation">
-                    <button class="nav-link rounded-pill bg-main-25 text-md fw-medium text-neutral-500 flex-center w-100 gap-8" id="pills-paymentMethod-tab" data-bs-toggle="pill" data-bs-target="#pills-paymentMethod" type="button" role="tab" aria-controls="pills-paymentMethod" aria-selected="false">
-                        <i class="text-xl text-main-600 d-flex ph-bold ph-graduation-cap"></i>
-                        Payment Method
-                    </button>
-                </li>
-                <li class="nav-item" role="presentation">
-                    <button class="nav-link rounded-pill bg-main-25 text-md fw-medium text-neutral-500 flex-center w-100 gap-8" id="pills-Pricing-tab" data-bs-toggle="pill" data-bs-target="#pills-Pricing" type="button" role="tab" aria-controls="pills-Pricing" aria-selected="false">
-                        <i class="text-xl text-main-600 d-flex ph-bold ph-star"></i>
-                        Pricing Plan
-                    </button>
-                </li>
-            </ul>
-        </div>
+        <div class="row justify-content-center">
+            <div class="col-lg-10">
+                <div class="accordion common-accordion" id="accordionFAQ">
 
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#faq1" aria-expanded="true" aria-controls="faq1">
+                                С какого возраста можно записывать ребёнка на занятия?
+                            </button>
+                        </h2>
+                        <div id="faq1" class="accordion-collapse collapse show" data-bs-parent="#accordionFAQ">
+                            <div class="accordion-body">
+                                <p class="accordion-body__desc">Мы принимаем учеников с 6 лет. Для младших школьников программы адаптированы в игровой форме, чтобы обучение было интересным и понятным. Для старших — более углублённые курсы с практикой и проектами.</p>
+                            </div>
+                        </div>
+                    </div>
 
-        <div class="tab-content" id="pills-tabContent">
-            <div class="tab-pane fade show active" id="pills-onlineEdu" role="tabpanel" aria-labelledby="pills-onlineEdu-tab" tabindex="0">
-                <div class="row gy-4">
-                    <div class="col-lg-6">
-                        <div class="accordion common-accordion" id="accordionExampleOne">
-                            <div class="accordion-item">
-                                <h2 class="accordion-header">
-                                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                        How do I enroll in a course?
-                                    </button>
-                                </h2>
-                                <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExampleOne">
-                                    <div class="accordion-body">
-                                        <p class="accordion-body__desc">Once you enroll in a course, you'll have unlimited access to the course materials for as long as the course is available on our platform.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="accordion-item">
-                                <h2 class="accordion-header">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                        Can I access my courses on mobile devices?
-                                    </button>
-                                </h2>
-                                <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExampleOne">
-                                    <div class="accordion-body">
-                                        <p class="accordion-body__desc">Once you enroll in a course, you'll have unlimited access to the course materials for as long as the course is available on our platform.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="accordion-item">
-                                <h2 class="accordion-header">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                        How long do I have access to a course?
-                                    </button>
-                                </h2>
-                                <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExampleOne">
-                                    <div class="accordion-body">
-                                        <p class="accordion-body__desc">Once you enroll in a course, you'll have unlimited access to the course materials for as long as the course is available on our platform.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="accordion-item">
-                                <h2 class="accordion-header">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                                        What if I need help or have questions during the course?
-                                    </button>
-                                </h2>
-                                <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExampleOne">
-                                    <div class="accordion-body">
-                                        <p class="accordion-body__desc">Once you enroll in a course, you'll have unlimited access to the course materials for as long as the course is available on our platform.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="accordion-item">
-                                <h2 class="accordion-header">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-                                        Do you offer refunds if I'm not satisfied with a course?
-                                    </button>
-                                </h2>
-                                <div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionExampleOne">
-                                    <div class="accordion-body">
-                                        <p class="accordion-body__desc">Once you enroll in a course, you'll have unlimited access to the course materials for as long as the course is available on our platform.</p>
-                                    </div>
-                                </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq2" aria-expanded="false" aria-controls="faq2">
+                                Нужно ли покупать дополнительное оборудование или материалы?
+                            </button>
+                        </h2>
+                        <div id="faq2" class="accordion-collapse collapse" data-bs-parent="#accordionFAQ">
+                            <div class="accordion-body">
+                                <p class="accordion-body__desc">Нет, всё необходимое предоставляется центром. Ученики используют ноутбуки, шахматные доски и учебные материалы, которые есть у нас. Родителям не нужно ничего докупать.</p>
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-6">
-                        <div class="accordion common-accordion" id="accordionExampleTwooo">
-                            <div class="accordion-item">
-                                <h2 class="accordion-header">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwoEducation" aria-expanded="false" aria-controls="collapseTwoEducation">
-                                        Can I access my courses on mobile devices?
-                                    </button>
-                                </h2>
-                                <div id="collapseTwoEducation" class="accordion-collapse collapse" data-bs-parent="#accordionExampleTwooo">
-                                    <div class="accordion-body">
-                                        <p class="accordion-body__desc">Once you enroll in a course, you'll have unlimited access to the course materials for as long as the course is available on our platform.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="accordion-item">
-                                <h2 class="accordion-header">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThreeEducation" aria-expanded="false" aria-controls="collapseThreeEducation">
-                                        How long do I have access to a course?
-                                    </button>
-                                </h2>
-                                <div id="collapseThreeEducation" class="accordion-collapse collapse" data-bs-parent="#accordionExampleTwooo">
-                                    <div class="accordion-body">
-                                        <p class="accordion-body__desc">Once you enroll in a course, you'll have unlimited access to the course materials for as long as the course is available on our platform.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="accordion-item">
-                                <h2 class="accordion-header">
-                                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOneEducation" aria-expanded="true" aria-controls="collapseOneEducation">
-                                        How do I enroll in a course?
-                                    </button>
-                                </h2>
-                                <div id="collapseOneEducation" class="accordion-collapse collapse show" data-bs-parent="#accordionExampleTwooo">
-                                    <div class="accordion-body">
-                                        <p class="accordion-body__desc">Once you enroll in a course, you'll have unlimited access to the course materials for as long as the course is available on our platform.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="accordion-item">
-                                <h2 class="accordion-header">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFourEducation" aria-expanded="false" aria-controls="collapseFourEducation">
-                                        What if I need help or have questions during the course?
-                                    </button>
-                                </h2>
-                                <div id="collapseFourEducation" class="accordion-collapse collapse" data-bs-parent="#accordionExampleTwooo">
-                                    <div class="accordion-body">
-                                        <p class="accordion-body__desc">Once you enroll in a course, you'll have unlimited access to the course materials for as long as the course is available on our platform.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="accordion-item">
-                                <h2 class="accordion-header">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFiveEducation" aria-expanded="false" aria-controls="collapseFiveEducation">
-                                        Do you offer refunds if I'm not satisfied with a course?
-                                    </button>
-                                </h2>
-                                <div id="collapseFiveEducation" class="accordion-collapse collapse" data-bs-parent="#accordionExampleTwooo">
-                                    <div class="accordion-body">
-                                        <p class="accordion-body__desc">Once you enroll in a course, you'll have unlimited access to the course materials for as long as the course is available on our platform.</p>
-                                    </div>
-                                </div>
+
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq3" aria-expanded="false" aria-controls="faq3">
+                                Как проходит обучение — онлайн или офлайн?
+                            </button>
+                        </h2>
+                        <div id="faq3" class="accordion-collapse collapse" data-bs-parent="#accordionFAQ">
+                            <div class="accordion-body">
+                                <p class="accordion-body__desc">Мы проводим занятия как в учебных классах, так и онлайн. Родители могут выбрать удобный формат при записи. Онлайн-занятия проходят в интерактивной форме с преподавателем в реальном времени.</p>
                             </div>
                         </div>
                     </div>
-                </div>
-            </div>
-            <div class="tab-pane fade" id="pills-paymentMethod" role="tabpanel" aria-labelledby="pills-paymentMethod-tab" tabindex="0">
-                <div class="row gy-4">
-                    <div class="col-lg-6">
-                        <div class="accordion common-accordion" id="accordionExamplePaymentOne">
-                            <div class="accordion-item">
-                                <h2 class="accordion-header">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwoPaymentOne" aria-expanded="false" aria-controls="collapseTwoPaymentOne">
-                                        Can I access my courses on mobile devices?
-                                    </button>
-                                </h2>
-                                <div id="collapseTwoPaymentOne" class="accordion-collapse collapse" data-bs-parent="#accordionExamplePaymentOne">
-                                    <div class="accordion-body">
-                                        <p class="accordion-body__desc">Once you enroll in a course, you'll have unlimited access to the course materials for as long as the course is available on our platform.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="accordion-item">
-                                <h2 class="accordion-header">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThreePaymentOne" aria-expanded="false" aria-controls="collapseThreePaymentOne">
-                                        How long do I have access to a course?
-                                    </button>
-                                </h2>
-                                <div id="collapseThreePaymentOne" class="accordion-collapse collapse" data-bs-parent="#accordionExamplePaymentOne">
-                                    <div class="accordion-body">
-                                        <p class="accordion-body__desc">Once you enroll in a course, you'll have unlimited access to the course materials for as long as the course is available on our platform.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="accordion-item">
-                                <h2 class="accordion-header">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFourPaymentOne" aria-expanded="false" aria-controls="collapseFourPaymentOne">
-                                        What if I need help or have questions during the course?
-                                    </button>
-                                </h2>
-                                <div id="collapseFourPaymentOne" class="accordion-collapse collapse" data-bs-parent="#accordionExamplePaymentOne">
-                                    <div class="accordion-body">
-                                        <p class="accordion-body__desc">Once you enroll in a course, you'll have unlimited access to the course materials for as long as the course is available on our platform.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="accordion-item">
-                                <h2 class="accordion-header">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFivePaymentOne" aria-expanded="false" aria-controls="collapseFivePaymentOne">
-                                        Do you offer refunds if I'm not satisfied with a course?
-                                    </button>
-                                </h2>
-                                <div id="collapseFivePaymentOne" class="accordion-collapse collapse" data-bs-parent="#accordionExamplePaymentOne">
-                                    <div class="accordion-body">
-                                        <p class="accordion-body__desc">Once you enroll in a course, you'll have unlimited access to the course materials for as long as the course is available on our platform.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="accordion-item">
-                                <h2 class="accordion-header">
-                                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOnePaymentOne" aria-expanded="true" aria-controls="collapseOnePaymentOne">
-                                        How do I enroll in a course?
-                                    </button>
-                                </h2>
-                                <div id="collapseOnePaymentOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExamplePaymentOne">
-                                    <div class="accordion-body">
-                                        <p class="accordion-body__desc">Once you enroll in a course, you'll have unlimited access to the course materials for as long as the course is available on our platform.</p>
-                                    </div>
-                                </div>
+
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq4" aria-expanded="false" aria-controls="faq4">
+                                Сколько длится одно занятие и курс в целом?
+                            </button>
+                        </h2>
+                        <div id="faq4" class="accordion-collapse collapse" data-bs-parent="#accordionFAQ">
+                            <div class="accordion-body">
+                                <p class="accordion-body__desc">Продолжительность одного занятия — 60–90 минут, в зависимости от возраста ребёнка. Полный курс длится от 3 до 6 месяцев, после чего можно перейти на следующий уровень обучения.</p>
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-6">
-                        <div class="accordion common-accordion" id="accordionExampleTwoPaymentTwo">
-                            <div class="accordion-item">
-                                <h2 class="accordion-header">
-                                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOnePaymentTwo" aria-expanded="true" aria-controls="collapseOnePaymentTwo">
-                                        How do I enroll in a course?
-                                    </button>
-                                </h2>
-                                <div id="collapseOnePaymentTwo" class="accordion-collapse collapse show" data-bs-parent="#accordionExampleTwoPaymentTwo">
-                                    <div class="accordion-body">
-                                        <p class="accordion-body__desc">Once you enroll in a course, you'll have unlimited access to the course materials for as long as the course is available on our platform.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="accordion-item">
-                                <h2 class="accordion-header">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwoPaymentTwo" aria-expanded="false" aria-controls="collapseTwoPaymentTwo">
-                                        Can I access my courses on mobile devices?
-                                    </button>
-                                </h2>
-                                <div id="collapseTwoPaymentTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExampleTwoPaymentTwo">
-                                    <div class="accordion-body">
-                                        <p class="accordion-body__desc">Once you enroll in a course, you'll have unlimited access to the course materials for as long as the course is available on our platform.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="accordion-item">
-                                <h2 class="accordion-header">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThreePaymentTwo" aria-expanded="false" aria-controls="collapseThreePaymentTwo">
-                                        How long do I have access to a course?
-                                    </button>
-                                </h2>
-                                <div id="collapseThreePaymentTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExampleTwoPaymentTwo">
-                                    <div class="accordion-body">
-                                        <p class="accordion-body__desc">Once you enroll in a course, you'll have unlimited access to the course materials for as long as the course is available on our platform.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="accordion-item">
-                                <h2 class="accordion-header">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFourPaymentTwo" aria-expanded="false" aria-controls="collapseFourPaymentTwo">
-                                        What if I need help or have questions during the course?
-                                    </button>
-                                </h2>
-                                <div id="collapseFourPaymentTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExampleTwoPaymentTwo">
-                                    <div class="accordion-body">
-                                        <p class="accordion-body__desc">Once you enroll in a course, you'll have unlimited access to the course materials for as long as the course is available on our platform.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="accordion-item">
-                                <h2 class="accordion-header">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFivePaymentTwo" aria-expanded="false" aria-controls="collapseFivePaymentTwo">
-                                        Do you offer refunds if I'm not satisfied with a course?
-                                    </button>
-                                </h2>
-                                <div id="collapseFivePaymentTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExampleTwoPaymentTwo">
-                                    <div class="accordion-body">
-                                        <p class="accordion-body__desc">Once you enroll in a course, you'll have unlimited access to the course materials for as long as the course is available on our platform.</p>
-                                    </div>
-                                </div>
+
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq5" aria-expanded="false" aria-controls="faq5">
+                                Как происходит оплата и можно ли платить частями?
+                            </button>
+                        </h2>
+                        <div id="faq5" class="accordion-collapse collapse" data-bs-parent="#accordionFAQ">
+                            <div class="accordion-body">
+                                <p class="accordion-body__desc">Да, вы можете оплатить курс полностью или частями — ежемесячно. Оплата возможна наличными, по карте или онлайн. Также мы предоставляем скидки при оплате сразу за весь курс.</p>
                             </div>
                         </div>
                     </div>
-                </div>
-            </div>
-            <div class="tab-pane fade" id="pills-Pricing" role="tabpanel" aria-labelledby="pills-Pricing-tab" tabindex="0">
-                <div class="row gy-4">
-                    <div class="col-lg-6">
-                        <div class="accordion common-accordion" id="accordionExampleOnePricingOne">
-                            <div class="accordion-item">
-                                <h2 class="accordion-header">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwoPricingOne" aria-expanded="false" aria-controls="collapseTwoPricingOne">
-                                        Can I access my courses on mobile devices?
-                                    </button>
-                                </h2>
-                                <div id="collapseTwoPricingOne" class="accordion-collapse collapse" data-bs-parent="#accordionExampleOnePricingOne">
-                                    <div class="accordion-body">
-                                        <p class="accordion-body__desc">Once you enroll in a course, you'll have unlimited access to the course materials for as long as the course is available on our platform.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="accordion-item">
-                                <h2 class="accordion-header">
-                                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOnePricingOne" aria-expanded="true" aria-controls="collapseOnePricingOne">
-                                        How do I enroll in a course?
-                                    </button>
-                                </h2>
-                                <div id="collapseOnePricingOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExampleOnePricingOne">
-                                    <div class="accordion-body">
-                                        <p class="accordion-body__desc">Once you enroll in a course, you'll have unlimited access to the course materials for as long as the course is available on our platform.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="accordion-item">
-                                <h2 class="accordion-header">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThreePricingOne" aria-expanded="false" aria-controls="collapseThreePricingOne">
-                                        How long do I have access to a course?
-                                    </button>
-                                </h2>
-                                <div id="collapseThreePricingOne" class="accordion-collapse collapse" data-bs-parent="#accordionExampleOnePricingOne">
-                                    <div class="accordion-body">
-                                        <p class="accordion-body__desc">Once you enroll in a course, you'll have unlimited access to the course materials for as long as the course is available on our platform.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="accordion-item">
-                                <h2 class="accordion-header">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFourPricingOne" aria-expanded="false" aria-controls="collapseFourPricingOne">
-                                        What if I need help or have questions during the course?
-                                    </button>
-                                </h2>
-                                <div id="collapseFourPricingOne" class="accordion-collapse collapse" data-bs-parent="#accordionExampleOnePricingOne">
-                                    <div class="accordion-body">
-                                        <p class="accordion-body__desc">Once you enroll in a course, you'll have unlimited access to the course materials for as long as the course is available on our platform.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="accordion-item">
-                                <h2 class="accordion-header">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFivePricingOne" aria-expanded="false" aria-controls="collapseFivePricingOne">
-                                        Do you offer refunds if I'm not satisfied with a course?
-                                    </button>
-                                </h2>
-                                <div id="collapseFivePricingOne" class="accordion-collapse collapse" data-bs-parent="#accordionExampleOnePricingOne">
-                                    <div class="accordion-body">
-                                        <p class="accordion-body__desc">Once you enroll in a course, you'll have unlimited access to the course materials for as long as the course is available on our platform.</p>
-                                    </div>
-                                </div>
+
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq6" aria-expanded="false" aria-controls="faq6">
+                                Что делать, если ребёнок пропустил занятие?
+                            </button>
+                        </h2>
+                        <div id="faq6" class="accordion-collapse collapse" data-bs-parent="#accordionFAQ">
+                            <div class="accordion-body">
+                                <p class="accordion-body__desc">Мы предлагаем возможность отработать пропущенное занятие — в другой группе или индивидуально по договорённости с преподавателем. Главное — предупредить администратора заранее.</p>
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-6">
-                        <div class="accordion common-accordion" id="accordionExampleTwo">
-                            <div class="accordion-item">
-                                <h2 class="accordion-header">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwoEducationPricingTwo" aria-expanded="false" aria-controls="collapseTwoEducationPricingTwo">
-                                        Can I access my courses on mobile devices?
-                                    </button>
-                                </h2>
-                                <div id="collapseTwoEducationPricingTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExampleTwo">
-                                    <div class="accordion-body">
-                                        <p class="accordion-body__desc">Once you enroll in a course, you'll have unlimited access to the course materials for as long as the course is available on our platform.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="accordion-item">
-                                <h2 class="accordion-header">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThreePricingTwo" aria-expanded="false" aria-controls="collapseThreePricingTwo">
-                                        How long do I have access to a course?
-                                    </button>
-                                </h2>
-                                <div id="collapseThreePricingTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExampleTwo">
-                                    <div class="accordion-body">
-                                        <p class="accordion-body__desc">Once you enroll in a course, you'll have unlimited access to the course materials for as long as the course is available on our platform.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="accordion-item">
-                                <h2 class="accordion-header">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFourPricingTwo" aria-expanded="false" aria-controls="collapseFourPricingTwo">
-                                        What if I need help or have questions during the course?
-                                    </button>
-                                </h2>
-                                <div id="collapseFourPricingTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExampleTwo">
-                                    <div class="accordion-body">
-                                        <p class="accordion-body__desc">Once you enroll in a course, you'll have unlimited access to the course materials for as long as the course is available on our platform.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="accordion-item">
-                                <h2 class="accordion-header">
-                                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOnePricingTwo" aria-expanded="true" aria-controls="collapseOnePricingTwo">
-                                        How do I enroll in a course?
-                                    </button>
-                                </h2>
-                                <div id="collapseOnePricingTwo" class="accordion-collapse collapse show" data-bs-parent="#accordionExampleTwo">
-                                    <div class="accordion-body">
-                                        <p class="accordion-body__desc">Once you enroll in a course, you'll have unlimited access to the course materials for as long as the course is available on our platform.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="accordion-item">
-                                <h2 class="accordion-header">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFivePricingTwo" aria-expanded="false" aria-controls="collapseFivePricingTwo">
-                                        Do you offer refunds if I'm not satisfied with a course?
-                                    </button>
-                                </h2>
-                                <div id="collapseFivePricingTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExampleTwo">
-                                    <div class="accordion-body">
-                                        <p class="accordion-body__desc">Once you enroll in a course, you'll have unlimited access to the course materials for as long as the course is available on our platform.</p>
-                                    </div>
-                                </div>
+
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq7" aria-expanded="false" aria-controls="faq7">
+                                Безопасно ли оставлять ребёнка в центре?
+                            </button>
+                        </h2>
+                        <div id="faq7" class="accordion-collapse collapse" data-bs-parent="#accordionFAQ">
+                            <div class="accordion-body">
+                                <p class="accordion-body__desc">Да, наш центр оборудован камерами видеонаблюдения и системой доступа. Все преподаватели проходят проверку и имеют опыт работы с детьми. Родители могут присутствовать на первых занятиях при желании.</p>
                             </div>
                         </div>
                     </div>
+
                 </div>
             </div>
         </div>
