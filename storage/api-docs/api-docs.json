@@ -1,0 +1,175 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "title": "Afzal API Documentation",
+        "description": "Afzal API Description",
+        "contact": {
+            "email": "support@example.com"
+        },
+        "license": {
+            "name": "Apache 2.0",
+            "url": "http://www.apache.org/licenses/LICENSE-2.0.html"
+        },
+        "version": "1.0.0"
+    },
+    "paths": {
+        "/api/show/dsd{id}": {
+            "post": {
+                "tags": [
+                    "Aplication"
+                ],
+                "summary": "Show course by ID",
+                "description": "Возвращает информацию о конкретном курсе по ID",
+                "operationId": "dsd",
+                "parameters": [
+                    {
+                        "name": "id",
+                        "in": "path",
+                        "description": "ID курса",
+                        "required": true,
+                        "schema": {
+                            "type": "integer",
+                            "example": 1
+                        }
+                    }
+                ],
+                "requestBody": {
+                    "description": "Тело запроса не требуется для этого эндпоинта",
+                    "required": false,
+                    "content": {
+                        "application/json": {
+                            "schema": {
+                                "properties": {
+                                    "exampleField": {
+                                        "type": "string",
+                                        "example": "test"
+                                    }
+                                },
+                                "type": "object"
+                            }
+                        }
+                    }
+                },
+                "responses": {
+                    "200": {
+                        "description": "Course retrieved successfully",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "properties": {
+                                        "id": {
+                                            "type": "integer",
+                                            "example": 1
+                                        },
+                                        "title": {
+                                            "type": "string",
+                                            "example": "Introduction to Digital Marketing"
+                                        },
+                                        "info": {
+                                            "type": "string",
+                                            "example": "Краткое описание курса"
+                                        },
+                                        "price": {
+                                            "type": "number",
+                                            "example": 148
+                                        }
+                                    },
+                                    "type": "object"
+                                }
+                            }
+                        }
+                    }
+                },
+                "security": [
+                    {
+                        "bearerAuth": []
+                    }
+                ]
+            }
+        },
+        "/api/show/{id}": {
+            "post": {
+                "tags": [
+                    "Courses"
+                ],
+                "summary": "Show course by ID",
+                "description": "Возвращает информацию о конкретном курсе по ID",
+                "operationId": "showCourse",
+                "parameters": [
+                    {
+                        "name": "id",
+                        "in": "path",
+                        "description": "ID курса",
+                        "required": true,
+                        "schema": {
+                            "type": "integer",
+                            "example": 1
+                        }
+                    }
+                ],
+                "requestBody": {
+                    "description": "Тело запроса не требуется для этого эндпоинта",
+                    "required": false,
+                    "content": {
+                        "application/json": {
+                            "schema": {
+                                "properties": {
+                                    "exampleField": {
+                                        "type": "string",
+                                        "example": "test"
+                                    }
+                                },
+                                "type": "object"
+                            }
+                        }
+                    }
+                },
+                "responses": {
+                    "200": {
+                        "description": "Course retrieved successfully",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "properties": {
+                                        "id": {
+                                            "type": "integer",
+                                            "example": 1
+                                        },
+                                        "title": {
+                                            "type": "string",
+                                            "example": "Introduction to Digital Marketing"
+                                        },
+                                        "info": {
+                                            "type": "string",
+                                            "example": "Краткое описание курса"
+                                        },
+                                        "price": {
+                                            "type": "number",
+                                            "example": 148
+                                        }
+                                    },
+                                    "type": "object"
+                                }
+                            }
+                        }
+                    }
+                },
+                "security": [
+                    {
+                        "bearerAuth": []
+                    }
+                ]
+            }
+        }
+    },
+    "tags": [
+        {
+            "name": "Aplication",
+            "description": "Aplication"
+        },
+        {
+            "name": "Courses",
+            "description": "Courses"
+        }
+    ]
+}

@@ -56,6 +56,14 @@
                     <input type="number" wire:model="price" class="form-control">
                     @error('price') <div class="text-danger">{{ $message }}</div> @enderror
                 </div>
+                <div class="mb-3">
+                    <label class="form-label">Категории</label>
+                    <select wire:model="selectCategory" class="form-select" multiple>
+                        @foreach($categories as $category)
+                            <option value="{{ $category->id }}">{{ $category->category }}</option>
+                        @endforeach
+                    </select>
+                </div>
 
                 <div class="mb-3">
                     <label class="form-label">Изображение</label>
@@ -67,7 +75,6 @@
                     @endif
                     @error('newImage') <div class="text-danger">{{ $message }}</div> @enderror
                 </div>
-
                 <div class="mb-4">
                     <label class="form-label">Навыки</label>
 
@@ -90,6 +97,27 @@
                     </button>
                 </div>
 
+                <div class="mb-4">
+                    <label class="form-label">Темы</label>
+
+                    @foreach($topics as $index => $topic)
+                        <div class="d-flex align-items-center mb-2">
+                            <input
+                                type="text"
+                                wire:model="topics.{{ $index }}"
+                                class="form-control me-2"
+                                placeholder="Введите тему"
+                            >
+                            <button type="button" wire:click="removeTopic({{ $index }})" class="btn btn-outline-danger btn-sm">
+                                <i class="bi-x"></i>
+                            </button>
+                        </div>
+                    @endforeach
+
+                    <button type="button" wire:click="addTopic" class="btn btn-outline-primary btn-sm">
+                        <i class="bi-plus-circle me-1"></i> Добавить тему
+                    </button>
+                </div>
 
                 <div class="d-flex gap-2">
                     <button type="submit" class="btn btn-primary">

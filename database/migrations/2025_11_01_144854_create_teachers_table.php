@@ -17,6 +17,7 @@ return new class extends Migration
             $table->text('info')->nullable();
             $table->string('phone');
             $table->string('photo')->nullable();
+            $table->integer('rating')->nullable();
             $table->timestamps();
         });
     }

@@ -11,14 +11,14 @@ return new class extends Migration
      */
     public function up(): void
     {
-        Schema::create('courses', function (Blueprint $table) {
+        Schema::create('achievements', function (Blueprint $table) {
             $table->id();
+            $table->foreignId('teacher_id')->nullable()->constrained('teachers');
             $table->string('name');
-            $table->string('teacher_id');
-            $table->text('info');
-            $table->integer('price');
-            $table->string('image');
-            $table->integer('rating')->nullable();
+            $table->string('olymp_name');
+            $table->string('photo');
+            $table->integer('place');
+            $table->text('description');
             $table->timestamps();
         });
     }
@@ -28,6 +28,6 @@ return new class extends Migration
      */
     public function down(): void
     {
-        Schema::dropIfExists('courses');
+        Schema::dropIfExists('achievements');
     }
 };

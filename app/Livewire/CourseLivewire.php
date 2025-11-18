@@ -4,9 +4,8 @@ namespace App\Livewire;
 
 use App\Models\SkillCourse;
 use App\Models\Teacher;
-use Livewire\Component;
-use Livewire\WithFileUploads;
 use App\Models\Course;
+use Livewire\Component;
 
 class CourseLivewire extends Component
 {
@@ -14,17 +13,21 @@ class CourseLivewire extends Component
     public $skills;
     public $teachers;
 
-    public $search = '';           // Поиск по названию
-    public $selectedSkills = [];   // Массив выбранных навыков
+    public $search = '';
+    public $selectedSkills = [];
 
     public function mount()
     {
         $this->teachers = Teacher::all();
+        $this->skills = SkillCourse::all();
         $this->loadCourses();
     }
-
+    public function search(){
+        dd($this->all());
+    }
     public function updatedSearch()
     {
+
         $this->loadCourses();
     }
 
@@ -33,28 +36,31 @@ class CourseLivewire extends Component
         $this->loadCourses();
     }
 
+    public function updated($propertyName)
+    {
+      dd($propertyName, $this->$propertyName);
+    }
+
     public function loadCourses()
     {
-        dd($this->all());
-        $query = Course::with('teacher', 'skills')->latest();
+        $query = Course::with(['teacher', 'skills'])->latest();
 
-        if ($this->search) {
+        if (!empty($this->search)) {
             $query->where('name', 'like', '%' . $this->search . '%');
         }
 
-
         if (!empty($this->selectedSkills)) {
-            $query->whereHas('skills', function($q){
+            $query->whereHas('skills', function ($q) {
                 $q->whereIn('id', $this->selectedSkills);
             });
         }
 
         $this->courses = $query->get();
-        $this->skills = SkillCourse::all();
     }
 
-    public function render(){
-        return view('livewire.course.course-manager')->layout('layouts.app');
+    public function render()
+    {
+        return view('livewire.course.course-livewire')
+            ->layout('layouts.app');
     }
 }
-

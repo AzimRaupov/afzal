@@ -12,4 +12,12 @@ class Teacher extends Model
         'phone',
         'photo'
     ];
+
+    public function courses(){
+        return $this->hasMany(Course::class);
+    }
+
+    public function reviews(){
+        return $this->hasMany(TeacherReview::class);
+    }
 }

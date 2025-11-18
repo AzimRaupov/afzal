@@ -12,9 +12,12 @@ class CourseShowManager extends Component
     public $name;
     public $comment;
     public $rating;
-
+    public $lcourses;
+    public $selectC;
     public function mount($id)
     {
+        $this->lcourses=Course::select('name')->get();
+
         $this->loadCourse($id);
     }
     public function resetForm()
@@ -26,11 +29,18 @@ class CourseShowManager extends Component
     }
     public function loadCourse($id)
     {
-        $this->course = Course::query()->with(['teacher','ratings'])->first();
+        $this->course = Course::query()->with(['teacher','ratings','topics'])->where('id', $id)->first();
+       $this->selectC=$this->course->name;
     }
     public function addComment()
     {
-
+        $ratings=Rating::all();
+        $sum=$this->rating;
+        foreach($ratings as $rating){
+            $sum+=$rating->rating;
+        }
+   $sum=$sum/(count($ratings)+1);
+        Course::query()->where('id',$this->course->id)->update(['rating'=>$sum]);
         Rating::query()->create([
             'course_id' => $this->course->id,
             'name' => $this->name,

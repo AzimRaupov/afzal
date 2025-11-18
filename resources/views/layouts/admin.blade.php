@@ -712,7 +712,12 @@
                             <span class="nav-link-title">Курсы</span>
                         </a>
                     </div>
-
+                    <div class="nav-item">
+                        <a class="nav-link" href="{{route('admin.achievement')}}">
+                            <i class="bi-gear nav-icon"></i>
+                            <span class="nav-link-title">Достижения</span>
+                        </a>
+                    </div>
 
                     <div class="nav-item">
                         <a class="nav-link {{ (request()->routeIs('dashboard')) ? 'active' : '' }}" href="">
@@ -3878,6 +3883,11 @@
         // INITIALIZATION OF ADD FIELD
         // =======================================================
         new HSAddField('.js-add-field')
+    })();
+    (function() {
+        // INITIALIZATION OF SELECT
+        // =======================================================
+        HSCore.components.HSTomSelect.init('.js-select')
     })();
 </script>
 

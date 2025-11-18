@@ -37,14 +37,12 @@
     </section>
     <!-- ==================== Breadcrumb End Here ==================== -->
 
-    <!-- ============================== Course List View Section Start ============================== -->
     <section class="course-list-view py-120">
         <div class="container">
             <div class="row">
                 <div class="col-lg-4">
                     <div class="sidebar rounded-12 bg-main-25 p-32 border border-neutral-30">
-                        <div class="sidebar rounded-12 bg-main-25 p-32 border border-neutral-30">
-                            <!-- Заголовок фильтров -->
+                        <form wire:submit="search">
                             <div class="flex-between mb-24">
                                 <h4 class="mb-0">Filter</h4>
                                 <button type="button" class="sidebar-close text-xl text-neutral-500 d-lg-none hover-text-main-600">
@@ -52,19 +50,17 @@
                                 </button>
                             </div>
 
-                            <!-- Поиск по названию курса -->
                             <div class="position-relative mb-24">
                                 <input type="text"
                                        class="common-input pe-48 rounded-pill"
                                        placeholder="Enter Course Name..."
-                                       wire:model.debounce.300ms="search">
+                                       wire:model.debounce.500ms="search">
                                 <span class="position-absolute top-50 translate-middle-y inset-inline-end-0 me-24 text-neutral-500">
             <i class="ph-bold ph-magnifying-glass"></i>
         </span>
                             </div>
                             <span class="d-block border border-neutral-30 border-dashed my-24"></span>
 
-                            <!-- Фильтр по навыкам -->
                             <h6 class="text-lg mb-24 fw-medium">Навыки</h6>
                             <div class="d-flex flex-column gap-16 mb-24">
                                 @foreach($skills as $skill)
@@ -80,12 +76,80 @@
                                     </div>
                                 @endforeach
                             </div>
-                            <a href="course.html" class="text-sm text-main-600 fw-semibold mt-0 mb-24 hover-text-decoration-underline">See All</a>
+
+                            <a href="course.html" class="text-sm text-main-600 fw-semibold mt-0 mb-24 hover-text-decoration-underline">
+                                See All
+                            </a>
+
+
                             <span class="d-block border border-neutral-30 border-dashed my-24"></span>
 
-                            <!-- Популярные теги (чисто визуально) -->
+                            <h6 class="text-lg mb-24 fw-medium">Pricing scale</h6>
+                            <div class="custom--range">
+                                <div id="slider-range"></div>
+                                <div class="custom--range__content">
+                                    <input type="text" class="custom--range__prices text-neutral-600 text-start text-md fw-medium w-100 text-center bg-transparent border-0 outline-0" id="amount" readonly>
+                                </div>
+                            </div>
+                            <span class="d-block border border-neutral-30 border-dashed my-24"></span>
+
+                            <h6 class="text-lg mb-24 fw-medium">Star Category</h6>
+                            <div class="d-flex flex-column gap-16">
+                                <div class="flex-between gap-16">
+                                    <div class="form-check common-check mb-0">
+                                        <input class="form-check-input" type="checkbox" name="categories" id="star5">
+                                        <label class="form-check-label fw-normal flex-grow-1 flex-align gap-8" for="star5">
+                                            <span class="text-warning-600 text-xl d-flex"><i class="ph-fill ph-star"></i></span>
+                                            5 Star
+                                        </label>
+                                    </div>
+                                    <span class="text-neutral-500">122</span>
+                                </div>
+                                <div class="flex-between gap-16">
+                                    <div class="form-check common-check mb-0">
+                                        <input class="form-check-input" type="checkbox" name="categories" id="star4">
+                                        <label class="form-check-label fw-normal flex-grow-1 flex-align gap-8" for="star4">
+                                            <span class="text-warning-600 text-xl d-flex"><i class="ph-fill ph-star"></i></span>
+                                            4 Star
+                                        </label>
+                                    </div>
+                                    <span class="text-neutral-500">356</span>
+                                </div>
+                                <div class="flex-between gap-16">
+                                    <div class="form-check common-check mb-0">
+                                        <input class="form-check-input" type="checkbox" name="categories" id="star3">
+                                        <label class="form-check-label fw-normal flex-grow-1 flex-align gap-8" for="star3">
+                                            <span class="text-warning-600 text-xl d-flex"><i class="ph-fill ph-star"></i></span>
+                                            3 Star
+                                        </label>
+                                    </div>
+                                    <span class="text-neutral-500">356</span>
+                                </div>
+                                <div class="flex-between gap-16">
+                                    <div class="form-check common-check mb-0">
+                                        <input class="form-check-input" type="checkbox" name="categories" id="star2">
+                                        <label class="form-check-label fw-normal flex-grow-1 flex-align gap-8" for="star2">
+                                            <span class="text-warning-600 text-xl d-flex"><i class="ph-fill ph-star"></i></span>
+                                            2 Star
+                                        </label>
+                                    </div>
+                                    <span class="text-neutral-500">213</span>
+                                </div>
+                                <div class="flex-between gap-16">
+                                    <div class="form-check common-check mb-0">
+                                        <input class="form-check-input" type="checkbox" name="categories" id="star1s">
+                                        <label class="form-check-label fw-normal flex-grow-1 flex-align gap-8" for="star1s">
+                                            <span class="text-warning-600 text-xl d-flex"><i class="ph-fill ph-star"></i></span>
+                                            1 Star
+                                        </label>
+                                    </div>
+                                    <span class="text-neutral-500">10</span>
+                                </div>
+                            </div>
+                            <span class="d-block border border-neutral-30 border-dashed my-24"></span>
+
                             <h6 class="text-lg mb-24 fw-medium">Popular Tags</h6>
-                            <div class="flex-align flex-wrap gap-12 mb-24">
+                            <div class="flex-align flex-wrap gap-12">
                                 <a href="course.html" class="border border-neutral-30 px-20 py-12 rounded-pill bg-white text-neutral-500 hover-border-main-600 hover-text-main-600">UI/UX Design</a>
                                 <a href="course.html" class="border border-neutral-30 px-20 py-12 rounded-pill bg-white text-neutral-500 hover-border-main-600 hover-text-main-600">Web Development</a>
                                 <a href="course.html" class="border border-neutral-30 px-20 py-12 rounded-pill bg-white text-neutral-500 hover-border-main-600 hover-text-main-600">Wordpress</a>
@@ -94,17 +158,35 @@
                                 <a href="course.html" class="border border-neutral-30 px-20 py-12 rounded-pill bg-white text-neutral-500 hover-border-main-600 hover-text-main-600">Laravel</a>
                                 <a href="course.html" class="border border-neutral-30 px-20 py-12 rounded-pill bg-white text-neutral-500 hover-border-main-600 hover-text-main-600">Python</a>
                             </div>
-                            <a href="course.html" class="text-sm text-main-600 fw-semibold mt-0 mb-24 hover-text-decoration-underline">More Tags</a>
+                            <a href="course.html" class="text-sm text-main-600 fw-semibold mt-24 hover-text-decoration-underline">More Tags </a>
                             <span class="d-block border border-neutral-30 border-dashed my-24"></span>
 
-                            <!-- Кнопка сброса фильтров -->
-                            <button type="button"
-                                    wire:click="resetFilters"
-                                    class="btn btn-outline-main rounded-pill flex-center gap-16 fw-semibold w-100">
+                            <h6 class="text-lg mb-24 fw-medium">Level</h6>
+                            <div class="d-flex flex-column gap-16">
+                                <div class="form-check common-check mb-0">
+                                    <input class="form-check-input" type="checkbox" name="categories" id="AllLevels">
+                                    <label class="form-check-label fw-normal flex-grow-1" for="AllLevels">All Levels</label>
+                                </div>
+                                <div class="form-check common-check mb-0">
+                                    <input class="form-check-input" type="checkbox" name="categories" id="Beginner">
+                                    <label class="form-check-label fw-normal flex-grow-1" for="Beginner">Beginner</label>
+                                </div>
+                                <div class="form-check common-check mb-0">
+                                    <input class="form-check-input" type="checkbox" name="categories" id="Intermediate">
+                                    <label class="form-check-label fw-normal flex-grow-1" for="Intermediate">Intermediate</label>
+                                </div>
+                                <div class="form-check common-check mb-0">
+                                    <input class="form-check-input" type="checkbox" name="categories" id="Expert">
+                                    <label class="form-check-label fw-normal flex-grow-1" for="Expert">Expert</label>
+                                </div>
+                            </div>
+                            <span class="d-block border border-neutral-30 border-dashed my-24"></span>
+
+                            <button type="reset" class="btn btn-outline-main rounded-pill flex-center gap-16 fw-semibold w-100">
                                 <i class="ph-bold ph-arrow-clockwise d-flex text-lg"></i>
                                 Reset Filters
                             </button>
-                        </div>
+                        </form>
                     </div>
                 </div>
                 <div class="col-lg-8">
@@ -126,66 +208,66 @@
                             </div>
                         </div>
                         <div class="row gy-4">
+
                             @foreach($courses as $course)
-                                <div class="col-12">
-                                    <div class="course-item bg-main-25 rounded-16 p-12 h-100 border border-neutral-30 list-view">
-                                        <div class="course-item__thumb rounded-12 overflow-hidden position-relative">
-                                            <a href="course-details.html" class="w-100 h-100">
-                                                <img src="{{asset('storage/'.$course->image)}}" alt="Course Image" class="course-item__img rounded-12 cover-img transition-2">
-                                            </a>
-                                            <div class="flex-align gap-8 bg-main-600 rounded-pill px-24 py-12 text-white position-absolute inset-block-start-0 inset-inline-start-0 mt-20 ms-20 z-1">
-                                                <span class="text-2xl d-flex"><i class="ph ph-clock"></i></span>
-                                                <span class="text-lg fw-medium">9h 36m</span>
-                                            </div>
-                                            <button type="button" class="wishlist-btn w-48 h-48 bg-white text-main-two-600 flex-center position-absolute inset-block-start-0 inset-inline-end-0 mt-20 me-20 z-1 text-2xl rounded-circle transition-2">
-                                                <i class="ph ph-heart"></i>
-                                            </button>
+
+
+                            <div class="col-12">
+                                <div class="course-item bg-main-25 rounded-16 p-12 h-100 border border-neutral-30 list-view">
+                                    <div class="course-item__thumb rounded-12 overflow-hidden position-relative">
+                                        <a href="course-details.html" class="w-100 h-100">
+                                            <img src="assets/images/thumbs/course-img1.png" alt="Course Image" class="course-item__img rounded-12 cover-img transition-2">
+                                        </a>
+                                        <div class="flex-align gap-8 bg-main-600 rounded-pill px-24 py-12 text-white position-absolute inset-block-start-0 inset-inline-start-0 mt-20 ms-20 z-1">
+                                            <span class="text-2xl d-flex"><i class="ph ph-clock"></i></span>
+                                            <span class="text-lg fw-medium">9h 36m</span>
                                         </div>
-                                        <div class="course-item__content flex-grow-1">
-                                            <div class="">
-                                                <h4 class="mb-28">
-                                                    <a href="course-details.html" class="link text-line-2">{{$course->name}}</a>
-                                                </h4>
-                                                <div class="flex-between gap-8 flex-wrap mb-16">
-                                                    <div class="flex-align gap-8">
-                                                        <span class="text-neutral-700 text-2xl d-flex"><i class="ph-bold ph-video-camera"></i></span>
-                                                        <span class="text-neutral-700 text-lg fw-medium">20 Lessons</span>
-                                                    </div>
-                                                    <div class="flex-align gap-8">
-                                                        <span class="text-neutral-700 text-2xl d-flex"><i class="ph-bold ph-chart-bar"></i></span>
-                                                        <span class="text-neutral-700 text-lg fw-medium">Beginner</span>
-                                                    </div>
+                                        <button type="button" class="wishlist-btn w-48 h-48 bg-white text-main-two-600 flex-center position-absolute inset-block-start-0 inset-inline-end-0 mt-20 me-20 z-1 text-2xl rounded-circle transition-2">
+                                            <i class="ph ph-heart"></i>
+                                        </button>
+                                    </div>
+                                    <div class="course-item__content flex-grow-1">
+                                        <div class="">
+                                            <h4 class="mb-28">
+                                                <a href="course-details.html" class="link text-line-2">Introduction to Digital Marketing</a>
+                                            </h4>
+                                            <div class="flex-between gap-8 flex-wrap mb-16">
+                                                <div class="flex-align gap-8">
+                                                    <span class="text-neutral-700 text-2xl d-flex"><i class="ph-bold ph-video-camera"></i></span>
+                                                    <span class="text-neutral-700 text-lg fw-medium">20 Lessons</span>
                                                 </div>
-                                                <div class="flex-between gap-8 flex-wrap">
-                                                    <div class="flex-align gap-4">
-                                                        <span class="text-2xl fw-medium text-warning-600 d-flex"><i class="ph-fill ph-star"></i></span>
-                                                        <span class="text-lg text-neutral-700">
+                                                <div class="flex-align gap-8">
+                                                    <span class="text-neutral-700 text-2xl d-flex"><i class="ph-bold ph-chart-bar"></i></span>
+                                                    <span class="text-neutral-700 text-lg fw-medium">Beginner</span>
+                                                </div>
+                                            </div>
+                                            <div class="flex-between gap-8 flex-wrap">
+                                                <div class="flex-align gap-4">
+                                                    <span class="text-2xl fw-medium text-warning-600 d-flex"><i class="ph-fill ph-star"></i></span>
+                                                    <span class="text-lg text-neutral-700">
                                                         4.7
                                                         <span class="text-neutral-100">(6.4k)</span>
                                                     </span>
-                                                    </div>
-                                                    <div class="flex-align gap-8">
+                                                </div>
+                                                <div class="flex-align gap-8">
                                                     <span class="text-neutral-700 text-2xl d-flex">
-                                                        <img src="{{asset('storage/'.$course->teacher->photo)}}" alt="User Image" class="w-32 h-32 object-fit-cover rounded-circle">
+                                                        <img src="assets/images/thumbs/user-img1.png" alt="User Image" class="w-32 h-32 object-fit-cover rounded-circle">
                                                     </span>
-                                                        <span class="text-neutral-700 text-lg fw-medium">{{$course->teacher->name}}</span>
-                                                    </div>
+                                                    <span class="text-neutral-700 text-lg fw-medium">AnikaZ</span>
                                                 </div>
                                             </div>
-                                            <div class="flex-between gap-8 pt-24 border-top border-neutral-50 mt-28 border-dashed border-0">
-                                                <h4 class="mb-0 text-main-two-600">{{$course->price}} сомони/1мох</h4>
-                                                <a href="apply-admission.html" class="flex-align gap-8 text-main-600 hover-text-decoration-underline transition-1 fw-semibold" tabindex="0">
-                                                    Enroll Now
-                                                    <i class="ph ph-arrow-right"></i>
-                                                </a>
-                                            </div>
+                                        </div>
+                                        <div class="flex-between gap-8 pt-24 border-top border-neutral-50 mt-28 border-dashed border-0">
+                                            <h4 class="mb-0 text-main-two-600">$148</h4>
+                                            <a href="apply-admission.html" class="flex-align gap-8 text-main-600 hover-text-decoration-underline transition-1 fw-semibold" tabindex="0">
+                                                Enroll Now
+                                                <i class="ph ph-arrow-right"></i>
+                                            </a>
                                         </div>
                                     </div>
                                 </div>
-
+                            </div>
                             @endforeach
-
-
 
                         </div>
 
@@ -214,9 +296,8 @@
             </div>
         </div>
     </section>
-    <!-- ============================== Course List View Section End ============================== -->
 
-    <!-- ================================= Certificate Section Start ================================= -->
+
     <div class="certificate">
         <div class="container container--lg">
             <div class="certificate-box px-16 bg-main-600 rounded-16">
