@@ -55,7 +55,7 @@
     <button type="button" class="close-button"><i class="ph ph-x"></i> </button>
     <div class="mobile-menu__inner">
         <a href="{{route('home')}}" class="mobile-menu__logo">
-            <img src="{{asset('file/logo_afzal.png')}}" style="width: 90px;" alt="Logo">
+            <img src="{{asset('file/logo_afzal.png')}}" style="width: 120px;" alt="Logo">
         </a>
         <div class="mobile-menu__menu">
 
@@ -113,7 +113,7 @@
                 <!-- Logo Start -->
                 <div class="logo">
                     <a href="" class="link">
-                        <img src="{{asset('file/logo_afzal.png')}}" style="width: 90px;" alt="Logo" >
+                        <img src="{{asset('file/logo_afzal.png')}}" style="width: 120px;" alt="Logo" >
                     </a>
                 </div>
                 <!-- Logo End  -->
