@@ -31,4 +31,8 @@ Route::view('profile', 'profile')
     ->middleware(['auth'])
     ->name('profile');
 
+Route::prefix('admin')
+    ->name('admin.')
+    ->group(base_path('routes/admin.php'));
+
 require __DIR__.'/auth.php';
